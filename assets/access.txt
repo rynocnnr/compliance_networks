@@ -1,0 +1,30 @@
+http://12.133.45.156 is the public IP until the DNS is changed.
+
+Your user account is:  roconnor
+Your password is: CnW3$ite2015
+
+You can gain ftp access to that IP address with your username and password.
+You can gain access to webmin by going to https://12.133.45.156:12578 if you need it. 
+You can gain access to phpMyAdmin but going to http://12.133.45.156/phpmyadmin/
+
+
+DB name: exprapp
+Db user:  exprapp
+DB password:  Bo0gieb0ogie#123
+
+
+Sftp (not FTP) to 12.133.45.156
+Username:  roconnor
+Password:  CnW3$ite2015
+
+ 
+Login to myphpAdmin by going to https://12.133.45156:12321
+Username:  roconnor
+Password:  CnW3$ite2015
+
+
+Twitter:
+
+richard.wilhjelm@compliancenetworks.com
+performance#1
+compntwrks

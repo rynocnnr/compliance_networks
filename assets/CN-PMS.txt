@@ -1,0 +1,1 @@
+I know the main spot blue when we print flat blue single color is PMS 307. The Orange gradients are a combination of PMS 158, 1375 and 136, but when I print flat, I use only 1375. So for a flat PMS blue and orange, use blue 307 and orange 1375.

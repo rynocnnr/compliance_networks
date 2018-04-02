@@ -1,0 +1,18 @@
+<div id="testimonials">
+	<div class="row">
+		{exp:channel:entries channel="testimonials" limit="3" orderby="random" dynamic="no"}
+			<div class="small-12 medium-4 columns">
+				<span class="quote">
+					<p>{quote}</p>
+				</span>
+				<span class="credit">
+					<p>
+						{title}<br />
+						{job_title}<br />
+						{company_name}
+					</p>
+				</span>
+			</div>
+		{/exp:channel:entries}
+	</div>
+</div>

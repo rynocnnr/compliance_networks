@@ -1,0 +1,43 @@
+<div class="dark-panel">
+	<div class="row">
+		<div class="small-12 medium-3 columns">
+			<h2>Performance</h2>
+			{exp:channel:entries channel="research" category="10" limit="2"}
+				<p><a href="{if white_paper_upload}{white_paper_upload}{if:else}{url_title_path=research/detail}{/if}" {if white_paper_upload}target="_blank"{/if}>{title}</a><br />
+				{short_description}</p>
+				{if count == "2"}
+					<a href="{path=research/list/performance}" class="button tiny">View All</a>
+				{/if}
+			{/exp:channel:entries}
+		</div>
+		<div class="small-12 medium-3 columns">
+			<h2>Visibility</h2>
+			{exp:channel:entries channel="research" category="11" limit="2"}
+				<p><a href="{if white_paper_upload}{white_paper_upload}{if:else}{url_title_path=research/detail}{/if}" {if white_paper_upload}target="_blank"{/if}>{title}</a><br />
+				{short_description}</p>
+				{if count == "2"}
+					<a href="{path=research/list/visibility}" class="button tiny">View All</a>
+				{/if}
+			{/exp:channel:entries}
+		</div>
+		<div class="small-12 medium-3 columns">
+			<h2>Compliance</h2>
+			{exp:channel:entries channel="research" category="12" limit="2"}
+				<p><a href="{if white_paper_upload}{white_paper_upload}{if:else}{url_title_path=research/detail}{/if}" {if white_paper_upload}target="_blank"{/if}>{title}</a><br />
+				{short_description}</p>
+				{if count == "2"}
+					<a href="{path=research/list/compliance}" class="button tiny">View All</a>
+				{/if}
+			{/exp:channel:entries}
+		</div>
+		<div class="small-12 medium-3 columns">
+			<h2>Events</h2>
+			{exp:channel:entries channel="events" dynamic="no" limit="2" orderby=""}
+				<div class="event">
+					<p><a href="">{title}</a><br />{event_start_date format="%m/%d/%y"}{if event_end_date} - {event_end_date format="%m/%d/%y"}{/if}</p>
+					{event_description}
+				</div>
+			{/exp:channel:entries}
+		</div>
+	</div>
+</div>
