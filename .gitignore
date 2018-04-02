@@ -34,3 +34,6 @@ bower_components/**/*
 
 # Build
 _site
+
+# Assets
+assets
