@@ -1,6 +1,0 @@
-Orange: #E1AC5A
-Blue: #008DBE
-DK Blue: #0A334D
-Gray: #EFF4F4
-
-Orange Text: #FF6600
